@@ -78,7 +78,8 @@ with tab_hobbies:
     with col_b:
         st.header("ゆめのしゃしん")
         # Gallery Placeholder
-        st.image("https://images.unsplash.com/photo-1626785774573-4b799314346d", caption="Graphic Design Work")
+        st.image("images/fujisan.jpg")
+
 
 
 
