@@ -5,15 +5,15 @@ import matplotlib.pyplot as plt
 
 # --- 1. PAGE SETUP (The "Canvas") ---
 st.set_page_config(
-    page_title="My Portfolio", 
-    page_icon="🧵", 
+    page_title="「わたしについて」", 
+    page_icon="🫱🏻‍🫲🏻", 
     layout="wide"
 )
 
 # --- 2. SIDEBAR (The Navigation & Quick Info) ---
 with st.sidebar:
     # You can replace this URL with a path to your actual photo later!
-    st.image("https://images.unsplash.com/photo-1550684848-fac1c5b4e853", caption="Textile Engineer")
+    st.image("https://images.unsplash.com/photo-1550684848-fac1c5b4e853", caption="University Student")
     st.markdown("### 📧 Contact Me")
     st.write("📍 Giza, Egypt")
     st.write("✉️ email@example.com")
@@ -126,4 +126,5 @@ with tab_history:
     # Expandable section for details
     with st.expander("See my current reading list"):
         st.checkbox("The Sealed Nectar (Ar-Raheeq Al-Makhtum)")
+
         st.checkbox("History of Textiles in the Islamic Golden Age")
