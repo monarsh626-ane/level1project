@@ -13,7 +13,7 @@ st.set_page_config(
 # --- 2. SIDEBAR (The Navigation & Quick Info) ---
 with st.sidebar:
     # You can replace this URL with a path to your actual photo later!
-    st.image("images/sidebar.png", caption="University Student")
+    st.image("images/sidebar.jpg", caption="University Student")
     st.markdown("### 📧 Contact Me")
     st.write("📍 アレクス－エジプト ")
     st.write("✉️ monarsh626@gmail.com")
@@ -45,7 +45,7 @@ with tab_home:
     col1, col2 = st.columns([1, 2])
     
     with col1:
-        st.image("images/myphoto.png", caption="私のしゃしん")
+        st.image("images/myphoto.jpg", caption="私のしゃしん")
         
     with col2:
         st.subheader("はじめまして !")
@@ -79,5 +79,6 @@ with tab_hobbies:
         st.header("ゆめのしゃしん")
         # Gallery Placeholder
         st.image("https://images.unsplash.com/photo-1626785774573-4b799314346d", caption="Graphic Design Work")
+
 
 
